@@ -23,8 +23,8 @@
 
 .container-main {
   background-color: blue;
-  height: 400px;
-  padding: 10px; */
+  /* height: 600px; */
+  padding: 10px;
 }
 .float-left {
   float: left;
@@ -32,18 +32,20 @@
 .col-left {
   background-color: green;
   width: 20%;
+  padding: 10px;
 }
 .col-center {
   background-color: pink;
   width: 40%;
   margin: 0 10%;
+  padding: 10px;
 }
 .col-right {
   background-color: darkgrey;
   width: 20%;
 }
 .subs {
-  display: inline-block;
+  padding: 10px;
 }
 
 .container-footer {
