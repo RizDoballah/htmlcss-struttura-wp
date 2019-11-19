@@ -4,51 +4,64 @@
   box-sizing: border-box;
 }
 
-.container {
+body {
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
+  }
+.container {
+  width: 800px;
+  margin: 20px auto;
+  }
+
+.container-header {
+ background-color: white;
+ padding: 5px;
+ margin-bottom: 5px;
 }
-.container::after {
+header {
+ height: 200px;
+ background-image: url(../img/forest.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+main {
+  /* height: 400px; */
+  background-color: pink;
+  margin-bottom: 20px;
+}
+ main::after {
   content: "";
   display: table;
   clear: both;
-}
-
-.container-header {
-  background-color: red;
-  height: 200px;
-}
-
-.container-main {
-  background-color: blue;
-  /* height: 600px; */
-  padding: 10px;
 }
 .float-left {
   float: left;
 }
 .col-left {
+  background-color: red;
+  width: 20%;
+  padding: 5px;
+}
+.col-center {
+  background-color: yellow;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+.col-right {
   background-color: green;
   width: 20%;
   padding: 10px;
 }
-.col-center {
-  background-color: pink;
-  width: 40%;
-  margin: 0 10%;
-  padding: 10px;
+.widget {
+  margin-bottom: 10px;
 }
-.col-right {
-  background-color: darkgrey;
-  width: 20%;
-}
-.subs {
-  padding: 10px;
-}
-
-.container-footer {
-  background-color: yellow;
+footer {
   height: 100px;
+  background-color: lightblue;
 }
